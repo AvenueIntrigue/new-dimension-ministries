@@ -1,0 +1,621 @@
+#root {
+  max-width: 100svw;
+  margin: 0 auto;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  background-color: white;
+  flex-direction: row;
+}
+
+.card {
+  border-radius: 1%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 100%;
+  height: auto;
+  font-family: "poppins", sans-serif;
+  /* font-size: large; */
+}
+
+.card-title {
+
+  font-weight: 600;
+  font-size: x-large;
+}
+
+.card-text {
+
+  font-weight: 500;
+  font-size: large;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+#menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline-flex
+}
+
+/* Custom Navbar Colors */
+
+.navbar {
+
+  background-color: whitesmoke;
+}
+
+.navbar-custom {
+  background-color: whitesmoke;
+  /* Replace with your desired background color */
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-nav .nav-link {
+  color: #393E46;
+  /* Replace with your desired text color */
+}
+
+.navbar-custom .navbar-toggler-icon {
+  background-color: #fff;
+  /* Replace with your desired color for the toggler icon */
+}
+
+.navbar-custom .navbar-toggler {
+  border-color: #187498;
+  /* Replace with your desired border color for the toggler button */
+}
+
+.containerTop {
+  padding: 10%;
+  background-color: whitesmoke;
+}
+
+.nav-link>h1 {
+  font-family: "atrament-web", sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+  font-style: normal;
+  color: #414042;
+}
+
+#footer {
+  width: 33%;
+}
+
+.footer {
+  /* font-family: "poppins", sans-serif; */
+  bottom: 0;
+  background-color: #414042;
+}
+
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.listFont {
+  font-family: "neuzeit-grotesk", sans-serif;
+  font-weight: 700;
+  font-size: x-large;
+  font-style: normal;
+  color: #000;
+}
+
+.footerLink {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.aboutLink {
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+  font-style: italic;
+  animation: color 200ms ease-in-out;
+}
+
+.aboutLink:hover {
+  color: blue;
+}
+
+.c-right {
+  color: lightgray;
+  font-style: italic;
+  font-size: smaller;
+  text-align: center;
+  padding: 7%;
+}
+
+#icons-footer {
+  text-align: center;
+  color: #eee;
+  padding: 7%;
+}
+
+.footerFont {
+  text-align: start;
+  color: #E6E7E8;
+  font: "atrament-web", sans-serif;
+  font-size: x-large;
+}
+
+.footerFont h1 {
+
+  font-weight: 500;
+  font-style: normal;
+}
+
+.footerFont h3 {
+
+  font-size: 2rem;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.footerFont>h4 {
+
+  font-size: 3rem;
+}
+
+/* Donate Section */
+
+.donate-section {
+  /* Grandpa */
+  width: 100svw;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 5%;
+}
+
+.donate-container {
+  /* Parent */
+  position: relative;
+
+  height: auto;
+  width: 66.6%;
+
+  /* background-color: #22A699;
+  border-radius: 1%;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6); */
+}
+
+.donate-text-container {
+  /* Brother */
+  position: relative;
+  color: black;
+  font-size: xx-large;
+  font-family: "poppins", sans-serif;
+  text-align: center;
+
+  width: 100%;
+}
+
+.donate-text-container>h2 {
+
+  font-weight: 500;
+}
+
+.donate-img-container {
+  /* Sister */
+  position: relative;
+  /* padding: 7%; */
+
+  width: 20rem;
+  background-color: rgba(0, 214, 50, 0.6);
+  margin: auto;
+  border-radius: 5%;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
+}
+
+.donate-container>img {
+  position: relative;
+  /* grid-template-columns: 2/3; */
+  width: 100%;
+  height: 100%;
+  border-radius: 5%;
+  /* box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6); */
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+/* Ministries Section */
+
+.ministries-section {
+  /* Grandpa */
+  width: 100svw;
+  height: auto;
+
+  padding: 5%;
+}
+
+.ministries-container {
+  /* Parent */
+  position: relative;
+  /* background-color: rgba(0, 0, 0, 0.1); */
+  height: auto;
+  width: 66.6%;
+  font-size: xx-large;
+  /* background-color: #22A699;
+  border-radius: 1%;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6); */
+}
+
+.ministries-text-container {
+  /* Brother */
+  position: relative;
+  color: black;
+
+  font-family: "poppins", sans-serif;
+  text-align: center;
+
+  width: 100%;
+}
+
+
+
+.ministries-img-container {
+  /* Sister */
+  position: relative;
+  /* padding: 7%; */
+
+  width: 20rem;
+  background-color: whitesmoke;
+  margin: auto;
+  border-radius: 5%;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
+}
+
+.ministries-container>img {
+  position: relative;
+  /* grid-template-columns: 2/3; */
+  width: 100%;
+  height: 100%;
+  border-radius: 5%;
+  /* box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6); */
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.ministriesLink {
+
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+.ministriesLink:hover {
+
+  font-size: xx-large;
+  font-style: italic;
+  font-weight: bolder;
+}
+
+/* Button New  */
+
+.button-new-container {
+  font-family: "poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 33.3%;
+  min-width: auto;
+  background-color: transparent;
+}
+
+.box-1 {
+  position: relative;
+  width: 20%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0e1538;
+  border-radius: 5%;
+  overflow: hidden;
+}
+
+.box-1 h2 {
+  color: rgb(226, 226, 226);
+  text-shadow: 2px, 2px, black;
+  font-size: 300%;
+  z-index: 2;
+}
+
+.box-1::before {
+  content: "";
+  position: absolute;
+  width: 40%;
+  height: 280%;
+  background: linear-gradient(#00ccff, #d500f9);
+  animation: rotate1 4s linear infinite;
+}
+
+.box-1::after {
+  content: "";
+  position: absolute;
+  background: #0e1538;
+  inset: 2.5%;
+  border-radius: 5%;
+}
+
+@keyframes rotate1 {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.donate-button-size {
+  position: relative;
+  padding-top: 7%;
+  padding-bottom: 7%;
+}
+
+
+/* About Image Section */
+
+
+.containerMid {
+  /* Grandpa */
+  background-color: whitesmoke;
+}
+
+.about-container {
+  /* sister */
+  /* background-color: #FF8551; */
+  font-size: x-large;
+  padding: 10%;
+  width: 100%;
+  height: auto;
+  margin-right: 0;
+  text-align: right;
+}
+
+.carousel-section {
+  max-width: 100%;
+  width: 100%;
+  aspect-ratio: 5/4;
+  margin: 0;
+  padding: 10%;
+}
+
+
+.type-text-sect {
+
+  width: 100svw;
+  height: auto;
+  padding: 10%;
+  background-color: #393E46;
+  animation: background-color 7s ease-in-out;
+}
+
+@keyframes background-color {
+
+  0% {
+    background-color: rgba(57, 62, 70, .0);
+  }
+
+  10% {
+    background-color: rgba(57, 62, 70, .1);
+  }
+
+  20% {
+    background-color: rgba(57, 62, 70, .2);
+  }
+
+  30% {
+    background-color: rgba(57, 62, 70, .3);
+  }
+
+  40% {
+    background-color: rgba(57, 62, 70, .4);
+  }
+
+  50% {
+    background-color: rgba(57, 62, 70, .5);
+  }
+
+  60% {
+    background-color: rgba(57, 62, 70, .6);
+  }
+
+  70% {
+    background-color: rgba(57, 62, 70, .7);
+  }
+
+  80% {
+    background-color: rgba(57, 62, 70, .8);
+  }
+
+  90% {
+    background-color: rgba(57, 62, 70, .9);
+  }
+
+  100% {
+    background-color: rgba(57, 62, 70);
+  }
+
+}
+
+
+
+.type-text-cont {
+
+  display: flex;
+
+}
+
+.text {
+
+
+  font-size: xx-large;
+  letter-spacing: 10px;
+  font-family: "subway-berlin-sc", sans-serif;
+  font-weight: 400;
+  /* border-right: 5px solid; */
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 4s ease-in-out,
+    font-color 7s ease-in-out;
+  color: rgba(238, 238, 238, 1);
+}
+
+
+
+@keyframes typing {
+
+  from {
+    width: 0;
+  }
+
+}
+
+@keyframes font-color {
+
+  0% {
+    color: rgba(57, 62, 70, .0);
+  }
+
+  2.5% {
+    color: rgba(57, 62, 70, 1);
+  }
+
+  100% {
+    color: rgba(238, 238, 238, 1);
+  }
+
+}
+
+/* Buttons Black and White */
+
+
+.b-container {
+
+  margin: auto;
+  padding: 7%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 44%;
+  height: 9%;
+
+  display: flex;
+  justify-content: center;
+  -ms-flex-item-align: center;
+  align-items: center;
+
+  background-color: transparent;
+
+}
+
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+
+}
+
+.box {
+  box-shadow: 0 0 20px #eee;
+  /* padding: 15px 45px; */
+  width: 44%;
+  height: 9%;
+  display: flex;
+  justify-content: center;
+  -ms-flex-item-align: center;
+  align-items: center;
+  background-color: transparent;
+  border: 5px solid #000;
+  border-radius: 2%;
+
+  position: absolute;
+  z-index: 3;
+  overflow: hidden;
+
+
+
+}
+
+
+
+.box h2 {
+
+  color: black;
+  font-family: "poppins", sans-serif;
+  font-weight: 700;
+  font-size: small;
+  position: absolute;
+  z-index: 2;
+
+
+
+}
+
+.box:hover {
+
+  cursor: pointer;
+  color: white;
+}
+
+.box:hover::before {
+
+  content: "";
+  position: absolute;
+  width: 300%;
+  height: 200%;
+
+  background: rgba(0, 0, 0, 0.1);
+  animation: rotate 4s 0.5 linear;
+  color: white;
+  outline-color: white;
+
+
+
+
+}
+
+.box:hover::after {
+
+  content: "";
+  position: absolute;
+
+  background-color: white;
+  /* inset: 1px; */
+  border-radius: 1%;
+
+}
+
+/* Media Sizes */
+
+@media (max-width: 1280px) {
+
+  .text {
+    letter-spacing: normal;
+  }
+
+  .ministries-text-container>h1 {
+
+    font-size: 4rem;
+  }
+
+  .about-container>h1 {
+
+    font-size: 4rem;
+  }
+
+}
