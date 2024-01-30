@@ -138,6 +138,7 @@ code {
   padding: 7%;
 }
 
+
 .footerFont {
   text-align: start;
   color: #E6E7E8;
@@ -192,36 +193,34 @@ code {
   font-size: xx-large;
   font-family: "poppins", sans-serif;
   text-align: center;
-
+margin: auto;
   width: 100%;
 }
 
 .donate-text-container>h2 {
 
   font-weight: 500;
+  
 }
 
 .donate-img-container {
   /* Sister */
   position: relative;
-  /* padding: 7%; */
-
-  width: 20rem;
+  width: 25%;
   background-color: rgba(0, 214, 50, 0.6);
   margin: auto;
   border-radius: 5%;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
 }
 
-.donate-container>img {
+.donate-container >img {
   position: relative;
-  /* grid-template-columns: 2/3; */
   width: 100%;
   height: 100%;
   border-radius: 5%;
-  /* box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6); */
   -o-object-fit: cover;
   object-fit: cover;
+  margin: auto;
 }
 
 /* Ministries Section */
@@ -237,13 +236,9 @@ code {
 .ministries-container {
   /* Parent */
   position: relative;
-  /* background-color: rgba(0, 0, 0, 0.1); */
   height: auto;
   width: 66.6%;
   font-size: xx-large;
-  /* background-color: #22A699;
-  border-radius: 1%;
-  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6); */
 }
 
 .ministries-text-container {
@@ -253,7 +248,7 @@ code {
 
   font-family: "poppins", sans-serif;
   text-align: center;
-
+margin: auto;
   width: 100%;
 }
 
@@ -262,24 +257,23 @@ code {
 .ministries-img-container {
   /* Sister */
   position: relative;
-  /* padding: 7%; */
-
-  width: 20rem;
+width: 25%;
   background-color: whitesmoke;
   margin: auto;
   border-radius: 5%;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
 }
 
-.ministries-container>img {
+.ministries-container >img {
   position: relative;
   /* grid-template-columns: 2/3; */
-  width: 100%;
-  height: 100%;
+  width: 20%;
+  height: 20%;
   border-radius: 5%;
   /* box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6); */
   -o-object-fit: cover;
   object-fit: cover;
+  margin: auto;
 }
 
 .ministriesLink {
@@ -608,14 +602,23 @@ code {
     letter-spacing: normal;
   }
 
-  .ministries-text-container>h1 {
+  .ministries-text-container >h1 {
 
     font-size: 4rem;
   }
+
+  .donate-img-container {
+
+    width: 15rem;
+    height: auto;
+    margin: auto;
+  } 
 
   .about-container>h1 {
 
     font-size: 4rem;
   }
+
+
 
 }

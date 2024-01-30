@@ -16,7 +16,7 @@ function Donate() {
                         <br /><br />
                         Step 1: Open Cash App, and select the scan icon in the top left corner.
                         <br /><br />
-                        Step 2: Scan the QR Code below.
+                        Step 2: Scan the QR Code below, or search for <i>$Sewhope72</i> within Cash App.
                         <br />
                         <br />
                         <img className="donate-img-container" src={DonateQR} alt="Donate QR Code" />
