@@ -361,6 +361,8 @@ width: 25%;
 .containerMid {
   /* Grandpa */
   background-color: whitesmoke;
+  padding-bottom: 10%;
+  padding-top: 10%;
 }
 
 .about-container {
