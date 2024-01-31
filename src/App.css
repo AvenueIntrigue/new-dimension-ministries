@@ -89,6 +89,15 @@
   /* font-family: "poppins", sans-serif; */
   bottom: 0;
   background-color: #414042;
+  text-align: left;
+  font-size: 100%;
+}
+
+.faIcons {
+
+  font-size: 200%;
+  text-align: center;
+  margin: auto;
 }
 
 
@@ -227,8 +236,9 @@ margin: auto;
 
 .ministries-section {
   /* Grandpa */
-  width: 100svw;
+  width: fit-content;
   height: auto;
+
 
   padding: 5%;
 }
@@ -238,7 +248,8 @@ margin: auto;
   position: relative;
   height: auto;
   width: 66.6%;
-  font-size: xx-large;
+  font-size: 200%;
+ 
 }
 
 .ministries-text-container {
@@ -453,7 +464,7 @@ width: 25%;
 .text {
 
 
-  font-size: xx-large;
+  font-size: 300%;
   letter-spacing: 10px;
   font-family: "subway-berlin-sc", sans-serif;
   font-weight: 400;
@@ -596,6 +607,17 @@ width: 25%;
 
 }
 
+.icon-footer {
+
+  width: 20%;
+}
+
+.sm-icons {
+
+  width: 100px;
+  height: auto;
+}
+
 /* Media Sizes */
 
 @media (max-width: 1280px) {
@@ -604,9 +626,30 @@ width: 25%;
     letter-spacing: normal;
   }
 
+  .ministries-container {
+
+    width: 100%;
+    height: auto;
+  }
+
+  .br {
+
+    display: block;
+    margin: 5px 0;
+  }
+
+
+
   .ministries-text-container >h1 {
 
     font-size: 4rem;
+    
+   
+  }
+
+  .ministries-img-container {
+
+    width: 15%;
   }
 
   .donate-img-container {
@@ -614,13 +657,63 @@ width: 25%;
     width: 15rem;
     height: auto;
     margin: auto;
-  } 
+  }
 
   .about-container>h1 {
 
     font-size: 4rem;
   }
 
+  .text {
+
+    font-size: 250%;
+    letter-spacing: normal;
+  }
+.faIcons {
+
+font-size: 180%;
+}
+
+
+}
+
+@media (max-width: 600px) {
+
+  .ministries-container {
+
+    font-size: 100%;
+  }
+
+
+
+  
+
+  .text {
+
+    letter-spacing: normal;
+    font-size: 200%;
+  }
+
+  .about-container {
+
+    text-align: center;
+  }
+
+  .faIcons {
+
+    font-size: 150%;
+    width: 100%;
+  }
+
+ 
+}
+
+@media (max-width: 1000px) {
+
+  .about-container {
+
+    text-align: center;
+  }
 
 
 }

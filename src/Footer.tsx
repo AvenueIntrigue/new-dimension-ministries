@@ -13,22 +13,22 @@ function Footer() {
     <div className="footer container-fluid" style={{ height: "auto", width: "100svw", paddingTop: "3.5%" }}>
       <div className="mx-auto" id="footer">
         <div className="container-fluid">
-          <div className="row mx-auto" id="icons-footer">
+          <div className="row" id="icons-footer">
 
             <div className="col-lg-3 col-md-3 col-sm-3">
-              <p className="icon-footer"><a className="footerLink" href="https://www.facebook.com/PastorApostleErnestWashington" target="blank"><i className="fa-brands fa-facebook fa-2xl"></i></a></p>
+              <p className="icon-footer"><a className="footerLink" href="https://www.facebook.com/PastorApostleErnestWashington" target="blank"><i className="faIcons fa-brands fa-facebook "></i></a></p>
             </div>
 
             <div className="col-lg-3 col-md-3 col-sm-3">
-              <p className="icon-footer"><a className="footerLink" href="https://www.youtube.com/@ErnestWashington-sk8mq" target="blank"><i className="fa-brands fa-x-twitter fa-2xl"></i></a></p>
+              <p className="icon-footer"><a className="footerLink" href="https://www.youtube.com/@ErnestWashington-sk8mq" target="blank"><i className="faIcons fa-brands fa-x-twitter "></i></a></p>
             </div>
 
             <div className="col-lg-3 col-md-3 col-sm-3">
-              <p className="icon-footer"><a className="footerLink" href="https://www.youtube.com/@ErnestWashington-sk8mq" target="blank"><i className="fa-brands fa-youtube fa-2xl"></i></a></p>
+              <p className="icon-footer"><a className="footerLink" href="https://www.youtube.com/@ErnestWashington-sk8mq" target="blank"><i className="faIcons fa-brands fa-youtube "></i></a></p>
             </div>
 
             <div className="col-lg-3 col-md-3 col-sm-3">
-              <p className="icon-footer"><a className="footerLink" href="mailto:ernest709@yahoo.com"><i className="fa-solid fa-envelope fa-2xl"></i></a></p>
+              <p className="icon-footer"><a className="footerLink" href="mailto:ernest709@yahoo.com"><i className="faIcons fa-solid fa-envelope "></i></a></p>
             </div>
 
 
