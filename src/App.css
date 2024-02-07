@@ -116,14 +116,14 @@
 
   font-weight: 600;
   font-size: x-large;
-  line-height: 1rem;
+  line-height: 1.5rem;
 }
 
 .card-text {
 
   font-weight: 500;
   font-size: large;
-  line-height: 1rem;
+  line-height: 1.5rem;
 }
 
 
@@ -236,9 +236,7 @@ width: 25%;
 
 .about-container {
   /* sister */
-  /* background-color: #FF8551; */
-  font-size: x-large;
-  
+  font-size: 150%;
   width: 100%;
   height: auto;
   margin-right: 0;
