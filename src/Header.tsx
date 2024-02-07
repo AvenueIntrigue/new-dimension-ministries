@@ -1,17 +1,27 @@
+
 import Logo from "./assets/NDC-Logo-3.png";
+import DarkLogo from "./assets/NDC-Logo-Dark.png";
 import { Link } from "react-router-dom";
 
 
 function Header() {
 
+ 
 
-  return <div>
+
+  return (
+
+    <div>
+
+     
 
     <nav className="navbar navbar-expand-xl">
       <div className="container-fluid ">
         <Link className="navbar-brand" to="/">
-          <img src={Logo} alt="Logo" width="50%" height="auto" className="d-inline-block align-text-top" />
-
+        <picture>
+            <source srcSet={DarkLogo} media="(prefers-color-scheme: dark)"/>
+          <img src={Logo} alt="Logo" width="50%" height="auto" className="logo d-inline-block align-text-top" />
+          </picture>
         </Link>
 
         <button className="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,6 +47,7 @@ function Header() {
 
   </div>
 
+  )
 
 }
 

@@ -29,16 +29,17 @@ function Donate() {
                     <br />
                     <br />
                     <br />
-                    <img className="donate-img-container" src={Check} alt="Check Image" />
+                    <p><img className="donate-img-container" src={Check} alt="Check Image" />
                     <br />
                     <br />
-                    <h2>Checks or Money-Orders can be made out to:<br /><br /> <i>Ernest Washington</i><br /><br /> & sent to<br /><br /><i>New Dimensions Ministries</i><br /><br /><i>920 South 23 Street</i><br /><i>Southbend, IN 46615</i> </h2>
+                    Checks or Money-Orders can be made out to:<br /><br /> <i>Ernest Washington</i><br /><br /> & sent to<br /><br /><i>New Dimensions Ministries</i><br /><br /><i>920 South 23 Street</i><br /><i>Southbend, IN 46615</i> 
 
 
                     <br /> <br />
                     Thanks & God Bless!
+                    </p>
                     <br /><br />
-                    <p> <i>"Give, and it will be given to you. Good measure, pressed down, shaken together, running over, will be put into your lap. For with the measure you use it will be measured back to you."</i> <br /><br /> Luke 6:38 ESV</p>
+                    <p><i>"Give, and it will be given to you. Good measure, pressed down, shaken together, running over, will be put into your lap. For with the measure you use it will be measured back to you."</i> <br /><br /> Luke 6:38 ESV</p>
                 </div>
 
             </div>

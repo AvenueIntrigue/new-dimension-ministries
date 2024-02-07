@@ -4,30 +4,21 @@
   font-weight: 400;
   font-style: normal;
   text-align: center;
-  background-color: white;
+  background-color: whitesmoke;
+  color: #1A1A1A;
   flex-direction: row;
+
+  @media (prefers-color-scheme: dark) {
+
+    background-color: #1A1A1A;
+    
+  }
+  
+
+
 }
 
-.card {
-  border-radius: 1%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  width: 100%;
-  height: auto;
-  font-family: "poppins", sans-serif;
-  /* font-size: large; */
-}
 
-.card-title {
-
-  font-weight: 600;
-  font-size: x-large;
-}
-
-.card-text {
-
-  font-weight: 500;
-  font-size: large;
-}
 
 .read-the-docs {
   color: #888;
@@ -40,57 +31,109 @@
   display: inline-flex
 }
 
-/* Custom Navbar Colors */
+/* Nav Section */
 
 .navbar {
 
   background-color: whitesmoke;
+
+  @media (prefers-color-scheme: dark) {
+
+    background-color: #1A1A1A;
+    
+  }
 }
 
-.navbar-custom {
-  background-color: whitesmoke;
-  /* Replace with your desired background color */
-}
+.navbar-toggler, .navbar-toggler-icon{
+  
 
-.navbar-custom .navbar-brand,
-.navbar-custom .navbar-nav .nav-link {
-  color: #393E46;
-  /* Replace with your desired text color */
-}
+  color: #333333;
 
-.navbar-custom .navbar-toggler-icon {
-  background-color: #fff;
-  /* Replace with your desired color for the toggler icon */
-}
+  background-image: url(./assets/HamburgerIconLight.png);
 
-.navbar-custom .navbar-toggler {
-  border-color: #187498;
-  /* Replace with your desired border color for the toggler button */
-}
+  @media (prefers-color-scheme: dark) {
 
-.containerTop {
-  padding: 10%;
-  background-color: whitesmoke;
+    color: whitesmoke;
+
+    background-image: url(./assets/HamburgerIconDark.png);
+    
+  }
+
 }
 
 .nav-link>h1 {
   font-family: "atrament-web", sans-serif;
   font-weight: 600;
-  font-size: 2rem;
+  font-size: 175%;
   font-style: normal;
   color: #414042;
+
+
+  @media (prefers-color-scheme: dark) {
+
+    color: whitesmoke;
+    
+  }
 }
 
-#footer {
-  width: 33%;
+
+
+/* Videos Section  */
+
+
+.containerTop {
+  padding: 10%;
+  background-color: whitesmoke;
+
+  @media (prefers-color-scheme: dark) {
+
+    border-bottom: 2.5px #333333;
+    
+    border-style: solid none;
+    background-color: #1A1A1A;
+    
+  }
 }
+
+.card {
+  border-radius: 1%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 100%;
+  height: auto;
+  font-family: "poppins", sans-serif;
+  
+ 
+
+  @media (prefers-color-scheme: dark) {
+
+    background-color: #1A1A1A;
+    color: whitesmoke;
+    
+  }
+}
+
+.card-title {
+
+  font-weight: 600;
+  font-size: x-large;
+  line-height: 1rem;
+}
+
+.card-text {
+
+  font-weight: 500;
+  font-size: large;
+  line-height: 1rem;
+}
+
+
+/* Footer Section */
+
 
 .footer {
-  /* font-family: "poppins", sans-serif; */
-  bottom: 0;
+
   background-color: #414042;
-  text-align: left;
-  font-size: 100%;
+
 }
 
 .faIcons {
@@ -98,13 +141,6 @@
   font-size: 200%;
   text-align: center;
   margin: auto;
-}
-
-
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
 }
 
 .listFont {
@@ -121,18 +157,6 @@ code {
   cursor: pointer;
 }
 
-.aboutLink {
-  text-decoration: none;
-  cursor: pointer;
-  color: black;
-  font-style: italic;
-  animation: color 200ms ease-in-out;
-}
-
-.aboutLink:hover {
-  color: blue;
-}
-
 .c-right {
   color: lightgray;
   font-style: italic;
@@ -141,10 +165,28 @@ code {
   padding: 7%;
 }
 
+
 #icons-footer {
   text-align: center;
-  color: #eee;
+  color: whitesmoke;
   padding: 7%;
+  width: 50%;
+  margin: auto;
+
+@media (max-width: 1200px ) {
+  width: 75%;
+ 
+}
+}
+
+#get-in-touch {
+
+  text-align: left;
+  padding: 7%;
+color: whitesmoke;
+width: 25%;
+
+
 }
 
 
@@ -153,6 +195,13 @@ code {
   color: #E6E7E8;
   font: "atrament-web", sans-serif;
   font-size: x-large;
+
+  @media (max-width: 1200px) {
+
+    font-size: medium;
+   
+    
+  }
 }
 
 .footerFont h1 {
@@ -163,15 +212,74 @@ code {
 
 .footerFont h3 {
 
-  font-size: 2rem;
+  
   font-weight: 500;
   font-style: italic;
 }
 
-.footerFont>h4 {
 
-  font-size: 3rem;
+/* Container Mid Section */
+
+.containerMid {
+  /* Grandpa */
+  background-color: whitesmoke;
+  padding-bottom: 10%;
+  padding-top: 10%;
+
+  @media (prefers-color-scheme: dark) {
+
+    background-color: #1A1A1A;
+    color: whitesmoke;
+    
+  }
 }
+
+.about-container {
+  /* sister */
+  /* background-color: #FF8551; */
+  font-size: x-large;
+  
+  width: 100%;
+  height: auto;
+  margin-right: 0;
+  text-align: right;
+  padding: 7%;
+}
+
+.carousel-section {
+  max-width: 100%;
+  width: 100%;
+  aspect-ratio: 5/4;
+  margin: 0;
+  padding: 10%;
+}
+
+
+.aboutLink {
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+  font-style: italic;
+  animation: color 200ms ease-in-out;
+
+  @media (prefers-color-scheme: dark) {
+    color: whitesmoke;
+    
+  }
+}
+
+.aboutLink:hover {
+  color: blue;
+
+  @media (prefers-color-scheme: dark) {
+    
+    color: #00ccff;
+  }
+}
+
+
+
+
 
 /* Donate Section */
 
@@ -181,6 +289,16 @@ code {
   height: auto;
   background-color: rgba(0, 0, 0, 0.1);
   padding: 5%;
+
+  @media (prefers-color-scheme: dark) {
+
+    border-bottom: 2.5px #333333;
+    
+    border-style: solid none;
+    background-color: #1A1A1A;
+    
+    
+  }
 }
 
 .donate-container {
@@ -188,29 +306,40 @@ code {
   position: relative;
 
   height: auto;
-  width: 66.6%;
+  width: 50%;
 
-  /* background-color: #22A699;
-  border-radius: 1%;
-  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6); */
+  @media (max-width: 600px) {
+
+   width: 80%;
+    
+  }
 }
 
 .donate-text-container {
   /* Brother */
   position: relative;
-  color: black;
-  font-size: xx-large;
+  color: #1A1A1A;
+  font-size: 150%;
   font-family: "poppins", sans-serif;
   text-align: center;
 margin: auto;
   width: 100%;
+
+  @media (prefers-color-scheme: dark) {
+
+    color: whitesmoke;
+    
+  }
+
+
 }
 
-.donate-text-container>h2 {
+.donate-text-container >h1 {
 
-  font-weight: 500;
-  
+  font-size: 250%;
 }
+
+
 
 .donate-img-container {
   /* Sister */
@@ -238,9 +367,17 @@ margin: auto;
   /* Grandpa */
   width: fit-content;
   height: auto;
-
-
   padding: 5%;
+
+  @media (prefers-color-scheme: dark) {
+
+    background-color: #1A1A1A;
+
+    border-bottom: 2.5px #333333;
+    
+    border-style: solid none;
+    
+  }
 }
 
 .ministries-container {
@@ -256,11 +393,23 @@ margin: auto;
   /* Brother */
   position: relative;
   color: black;
-
+padding: 7%;
   font-family: "poppins", sans-serif;
-  text-align: center;
+  text-align: justify-center;
 margin: auto;
   width: 100%;
+
+  @media (prefers-color-scheme: dark) {
+
+    color: whitesmoke;
+    
+  }
+}
+
+.ministries-text-container >h1{
+
+  font-size: 300%;
+  
 }
 
 
@@ -273,6 +422,8 @@ width: 25%;
   margin: auto;
   border-radius: 5%;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
+
+
 }
 
 .ministries-container >img {
@@ -292,13 +443,26 @@ width: 25%;
   text-decoration: none;
   color: black;
   cursor: pointer;
+
+  @media (prefers-color-scheme: dark) {
+
+    color: whitesmoke;
+    
+  }
 }
 
 .ministriesLink:hover {
 
-  font-size: xx-large;
+  
   font-style: italic;
   font-weight: bolder;
+  animation: font-style font-weight 400ms ease-in-out;
+
+  @media (prefers-color-scheme: dark) {
+
+    color: #00ccff;
+    
+  }
 }
 
 /* Button New  */
@@ -366,34 +530,7 @@ width: 25%;
 }
 
 
-/* About Image Section */
-
-
-.containerMid {
-  /* Grandpa */
-  background-color: whitesmoke;
-  padding-bottom: 10%;
-  padding-top: 10%;
-}
-
-.about-container {
-  /* sister */
-  /* background-color: #FF8551; */
-  font-size: x-large;
-  padding: 10%;
-  width: 100%;
-  height: auto;
-  margin-right: 0;
-  text-align: right;
-}
-
-.carousel-section {
-  max-width: 100%;
-  width: 100%;
-  aspect-ratio: 5/4;
-  margin: 0;
-  padding: 10%;
-}
+/* Type Text Section */
 
 
 .type-text-sect {
@@ -403,6 +540,13 @@ width: 25%;
   padding: 10%;
   background-color: #393E46;
   animation: background-color 7s ease-in-out;
+
+  @media (prefers-color-scheme: dark) {
+
+    background-color: #1A1A1A;
+    animation: none;
+    
+  }
 }
 
 @keyframes background-color {
@@ -554,6 +698,14 @@ width: 25%;
   z-index: 3;
   overflow: hidden;
 
+  @media (prefers-color-scheme: dark) {
+
+    box-shadow: 0 0 20px #000;
+
+    border: 5px solid transparent;
+    
+  }
+
 
 
 }
@@ -569,7 +721,11 @@ width: 25%;
   position: absolute;
   z-index: 2;
 
+  @media (prefers-color-scheme: dark) {
 
+    color: whitesmoke;
+    
+  }
 
 }
 
@@ -577,6 +733,7 @@ width: 25%;
 
   cursor: pointer;
   color: white;
+
 }
 
 .box:hover::before {
@@ -590,6 +747,15 @@ width: 25%;
   animation: rotate 4s 0.5 linear;
   color: white;
   outline-color: white;
+
+  @media (prefers-color-scheme: dark) {
+
+    background: rgba(238, 238, 238, 1);
+    color: #000;
+    outline-color: whitesmoke;
+    
+    
+  }
 
 
 
@@ -605,18 +771,17 @@ width: 25%;
   /* inset: 1px; */
   border-radius: 1%;
 
+  @media (prefers-color-scheme: dark) {
+
+    background-color: #000;
+    
+  }
+
 }
 
-.icon-footer {
 
-  width: 20%;
-}
 
-.sm-icons {
 
-  width: 100px;
-  height: auto;
-}
 
 /* Media Sizes */
 
@@ -705,6 +870,10 @@ font-size: 180%;
     width: 100%;
   }
 
+  #footer {
+    width: 100%;
+  }
+
  
 }
 
@@ -717,3 +886,12 @@ font-size: 180%;
 
 
 }
+
+
+
+
+
+
+ 
+
+

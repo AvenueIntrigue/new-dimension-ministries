@@ -15,19 +15,20 @@ function Footer() {
         <div className="container-fluid">
           <div className="row" id="icons-footer">
 
-            <div className="col-lg-3 col-md-3 col-sm-3">
+
+            <div className="col">
               <p className="icon-footer"><a className="footerLink" href="https://www.facebook.com/PastorApostleErnestWashington" target="blank"><i className="faIcons fa-brands fa-facebook "></i></a></p>
             </div>
 
-            <div className="col-lg-3 col-md-3 col-sm-3">
+            <div className="col">
               <p className="icon-footer"><a className="footerLink" href="https://www.youtube.com/@ErnestWashington-sk8mq" target="blank"><i className="faIcons fa-brands fa-x-twitter "></i></a></p>
             </div>
 
-            <div className="col-lg-3 col-md-3 col-sm-3">
+            <div className="col">
               <p className="icon-footer"><a className="footerLink" href="https://www.youtube.com/@ErnestWashington-sk8mq" target="blank"><i className="faIcons fa-brands fa-youtube "></i></a></p>
             </div>
 
-            <div className="col-lg-3 col-md-3 col-sm-3">
+            <div className="col">
               <p className="icon-footer"><a className="footerLink" href="mailto:ernest709@yahoo.com"><i className="faIcons fa-solid fa-envelope "></i></a></p>
             </div>
 
@@ -39,7 +40,7 @@ function Footer() {
       </div>
       <div className="row me-auto text-light">
 
-        <div className="col-lg-3 col-md-3 col-sm-6">
+        <div id="get-in-touch" className="col">
           <h2 className="footerFont" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GET IN TOUCH</h2>
 
 
