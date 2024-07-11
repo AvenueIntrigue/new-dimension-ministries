@@ -16,7 +16,7 @@ function Header() {
      
 
     <nav className="navbar navbar-expand-xl">
-      <div className="container-fluid ">
+      <div className="container-fluid  ">
         <Link className="navbar-brand" to="/">
         <picture>
             <source srcSet={DarkLogo} media="(prefers-color-scheme: dark)"/>
