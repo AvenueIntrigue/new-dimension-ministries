@@ -15,7 +15,7 @@ type CardProps = {
 }
 
 
-const Card: React.FC<CardProps> = ({iframeUrl,iframeTitle, cardTitle, linkHref}) => {
+const Card: React.FC<CardProps> = ({iframeUrl, iframeTitle, cardTitle, linkHref}) => {
 
 
 
